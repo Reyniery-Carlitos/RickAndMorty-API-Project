@@ -1,0 +1,124 @@
+.cards {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     width: 75%;
+     gap: 10px;
+}
+
+.container-card {
+     border-radius: 10px;
+     display: flex;
+     flex-direction: column;
+     /* align-items: center; */
+     justify-content: center;
+     padding: 0px 0px 0px 0px;
+     flex-wrap: wrap;
+     width: 25%;
+     -webkit-box-shadow: 0px 0px 47px -22px rgba(0, 0, 0, 0.75);
+     -moz-box-shadow: 0px 0px 47px -22px rgba(0, 0, 0, 0.75);
+     box-shadow: 0px 0px 47px -22px rgba(0, 0, 0, 0.75);
+}
+
+.container--image {
+     position: relative;
+     width: 100%;
+}
+
+.container--image img {
+     border-radius: 10px;
+     width: 100%;
+}
+
+.container--image p {
+     position: absolute;
+     top: -10px;
+     left: 80%;
+}
+
+.container--image small {
+     font-size: 4rem;
+     color: rgb(46, 183, 0);
+}
+
+.container--info {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     gap: 5px;
+     flex-wrap: wrap;
+     padding: 5px;
+     width: 100%;
+     margin: 0;
+}
+
+.container--info h2,
+.container--info h3,
+.container--info p {
+     margin: 0;
+}
+
+.container--info h2 {
+     font-size: 1.3rem;
+}
+
+.container--info h3 {
+     font-size: 1.1rem;
+}
+
+.container--info p {
+     font-size: 1rem;
+}
+
+.container-loading {
+     width: 100%;
+     font-size: 1.5rem;
+}
+
+.container--image .Dead {
+     color: red;
+}
+
+.container--image .unknown {
+     color: orange
+}
+
+@media screen and (max-width: 1100px) {
+     .container-card {
+          width: 30%;
+     }
+}
+
+@media screen and (max-width: 980px) {
+     .container-card {
+          width: 40%;
+     }
+}
+
+@media screen and (max-width: 750px) {
+     .container-card {
+          width: 50%;
+     }
+}
+
+@media screen and (max-width: 620px) {
+     .container-card {
+          width: 90%;
+     }
+
+     .cards {
+          width: 60%;
+     }
+}
+
+@media screen and (max-width: 420px) {
+     .container-card {
+          width: 100%;
+     }
+
+     .cards {
+          width: 90%;
+     }
+}

@@ -1,0 +1,35 @@
+.container-loading {
+     width: 75%;
+}
+
+.loading {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     border: 5px solid #fff;
+     border-radius: 100%;
+}
+
+.first {
+     margin: -30px 0 0 -30px;
+     height: 60px;
+     width: 60px;
+     border-top-color: #fbe9ea;
+     animation: loading 3s infinite linear;
+}
+
+.second {
+     margin: -20px 0 0 -20px;
+     height: 40px;
+     width: 40px;
+     border-top-color: #69afe1;
+     animation: loading 2s infinite linear;
+}
+
+.third {
+     margin: -10px 0 0 -10px;
+     height: 20px;
+     width: 20px;
+     border-top-color: #221e94;
+     animation: loading 1s infinite linear;
+}

@@ -1,0 +1,12 @@
+.buttons-pagination {
+     background-color: rgb(235, 235, 235);
+     margin: 5px;
+}
+
+.buttons-pagination:hover {
+     background-color: rgb(62, 255, 28);
+     color: #fff;
+     outline: none;
+     border: none;
+     font-weight: bold;
+}
