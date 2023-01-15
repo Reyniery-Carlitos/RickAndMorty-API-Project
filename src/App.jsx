@@ -53,11 +53,11 @@ const App = () => {
 		})
 	}
 
-	const nextPage = (info) => {
+	const nextPage = () => {
 		info.next !== null && setUrl(`${info.next}`)
 	}
 
-	const prevPage = (info) => {
+	const prevPage = () => {
 		info.prev !== null && setUrl(`${info.prev}`)
 	}
 
